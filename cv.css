@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add hover effect for sections */
+.summary:hover,
+.experience:hover,
+.skills:hover,
+.education:hover,
+.hobbies:hover,
+.awards:hover,
+.affiliations:hover,
+.volunteer:hover {
+    background-color: #f5f5f5; /* Change the background color on hover */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.summary,
+.experience,
+.skills,
+.education,
+.hobbies,
+.awards,
+.affiliations,
+.volunteer {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
